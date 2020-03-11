@@ -1,0 +1,337 @@
+!SESSION 2020-03-11 00:17:07.303 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2020-03-11 00:17:09.654
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2020-03-11 00:17:09.658
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:21:25.150
+!MESSAGE 2020-03-11 00:21:25,144 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+!SESSION 2020-03-11 00:25:39.608 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\\Vanitha\\Projects\\Talend\\Talend_Code -talendReload false
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2020-03-11 00:25:41.829
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2020-03-11 00:25:41.832
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 2 0 2020-03-11 00:26:12.773
+!MESSAGE 2020-03-11 00:26:12,768 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-03-11 00:26:27.348
+!MESSAGE 2020-03-11 00:26:27,346 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-03-11 00:26:27.804
+!MESSAGE 2020-03-11 00:26:27,803 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:26:48.688
+!MESSAGE 2020-03-11 00:26:48,687 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:26:48.691
+!MESSAGE 2020-03-11 00:26:48,690 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:26:48.695
+!MESSAGE 2020-03-11 00:26:48,694 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:26:48.697
+!MESSAGE 2020-03-11 00:26:48,696 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:26:50.933
+!MESSAGE 2020-03-11 00:26:50,932 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Vanitha\Projects\Talend\Talend_Code\CUSTOMER_DATA\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:26:50.936
+!MESSAGE 2020-03-11 00:26:50,935 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Users\Vanitha\Downloads\TOS_DI-20190620_1446-V7.2.1\TOS_DI-20190620_1446-V7.2.1\configuration\maven_user_settings.xml install -llr -N -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:27:01.298
+!MESSAGE 2020-03-11 00:27:01,297 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Vanitha\Projects\Talend\Talend_Code\CUSTOMER_DATA\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:27:01.300
+!MESSAGE 2020-03-11 00:27:01,299 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Users\Vanitha\Downloads\TOS_DI-20190620_1446-V7.2.1\TOS_DI-20190620_1446-V7.2.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:27:07.592
+!MESSAGE 2020-03-11 00:27:07,591 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on Customer-Data
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:27:08.855
+!MESSAGE 2020-03-11 00:27:08,854 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-03-11 00:27:09.794
+!MESSAGE 2020-03-11 00:27:09,793 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2020-03-11 00:27:09.826
+!MESSAGE 2020-03-11 00:27:09,825 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:32:24.873
+!MESSAGE 2020-03-11 00:32:24,872 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CUSTOMER_DATA_ROUTINES: org.example.customer_data.code:routines:7.2.1 with classifier  to /CUSTOMER_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:32:25.058
+!MESSAGE 2020-03-11 00:32:25,057 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:32:25.060
+!MESSAGE 2020-03-11 00:32:25,059 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:32:25.082
+!MESSAGE 2020-03-11 00:32:25,081 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:32:25.085
+!MESSAGE 2020-03-11 00:32:25,083 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:35:58.291
+!MESSAGE 2020-03-11 00:35:58,290 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:35:58.596
+!MESSAGE 2020-03-11 00:35:58,595 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CUSTOMER_DATA_ROUTINES: org.example.customer_data.code:routines:7.2.1 with classifier  to /CUSTOMER_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:35:58.965
+!MESSAGE 2020-03-11 00:35:58,964 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:35:58.967
+!MESSAGE 2020-03-11 00:35:58,966 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:35:58.972
+!MESSAGE 2020-03-11 00:35:58,971 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:35:58.974
+!MESSAGE 2020-03-11 00:35:58,973 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:35:59.211
+!MESSAGE 2020-03-11 00:35:59,210 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:35:59.588
+!MESSAGE 2020-03-11 00:35:59,587 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CUSTOMER_DATA_ROUTINES: org.example.customer_data.code:routines:7.2.1 with classifier  to /CUSTOMER_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:35:59.918
+!MESSAGE 2020-03-11 00:35:59,917 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_221/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Vanitha/Projects/Talend/Talend_Code/CUSTOMER_DATA/poms/jobs/process/customerdata_0.1/target/classpath.jar; customer_data.customerdata_0_1.CustomerData --context=Default --stat_port=3902 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:11.400
+!MESSAGE 2020-03-11 00:36:11,399 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:11.671
+!MESSAGE 2020-03-11 00:36:11,669 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CUSTOMER_DATA_ROUTINES: org.example.customer_data.code:routines:7.2.1 with classifier  to /CUSTOMER_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:12.120
+!MESSAGE 2020-03-11 00:36:12,119 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:12.122
+!MESSAGE 2020-03-11 00:36:12,121 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:12.126
+!MESSAGE 2020-03-11 00:36:12,125 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:12.128
+!MESSAGE 2020-03-11 00:36:12,127 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:12.300
+!MESSAGE 2020-03-11 00:36:12,299 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:12.592
+!MESSAGE 2020-03-11 00:36:12,590 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CUSTOMER_DATA_ROUTINES: org.example.customer_data.code:routines:7.2.1 with classifier  to /CUSTOMER_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:12.770
+!MESSAGE 2020-03-11 00:36:12,769 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_221/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Vanitha/Projects/Talend/Talend_Code/CUSTOMER_DATA/poms/jobs/process/customerdata_0.1/target/classpath.jar; customer_data.customerdata_0_1.CustomerData --context=Default --stat_port=3492 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:28.517
+!MESSAGE 2020-03-11 00:36:28,516 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:28.765
+!MESSAGE 2020-03-11 00:36:28,764 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CUSTOMER_DATA_ROUTINES: org.example.customer_data.code:routines:7.2.1 with classifier  to /CUSTOMER_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:29.100
+!MESSAGE 2020-03-11 00:36:29,099 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:29.102
+!MESSAGE 2020-03-11 00:36:29,101 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:29.107
+!MESSAGE 2020-03-11 00:36:29,106 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:29.109
+!MESSAGE 2020-03-11 00:36:29,108 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:29.298
+!MESSAGE 2020-03-11 00:36:29,297 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:29.602
+!MESSAGE 2020-03-11 00:36:29,601 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CUSTOMER_DATA_ROUTINES: org.example.customer_data.code:routines:7.2.1 with classifier  to /CUSTOMER_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:36:29.775
+!MESSAGE 2020-03-11 00:36:29,774 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_221/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Vanitha/Projects/Talend/Talend_Code/CUSTOMER_DATA/poms/jobs/process/customerdata_0.1/target/classpath.jar; customer_data.customerdata_0_1.CustomerData --context=Default --stat_port=3929 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:45:47.307
+!MESSAGE 2020-03-11 00:45:47,304 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:45:47.548
+!MESSAGE 2020-03-11 00:45:47,547 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CUSTOMER_DATA_ROUTINES: org.example.customer_data.code:routines:7.2.1 with classifier  to /CUSTOMER_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:45:47.814
+!MESSAGE 2020-03-11 00:45:47,813 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:45:47.816
+!MESSAGE 2020-03-11 00:45:47,815 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:45:47.820
+!MESSAGE 2020-03-11 00:45:47,819 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:45:47.822
+!MESSAGE 2020-03-11 00:45:47,821 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:45:48.005
+!MESSAGE 2020-03-11 00:45:48,004 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:45:48.382
+!MESSAGE 2020-03-11 00:45:48,380 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CUSTOMER_DATA_ROUTINES: org.example.customer_data.code:routines:7.2.1 with classifier  to /CUSTOMER_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:45:48.559
+!MESSAGE 2020-03-11 00:45:48,558 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_221/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Vanitha/Projects/Talend/Talend_Code/CUSTOMER_DATA/poms/jobs/process/customerdata_0.1/target/classpath.jar; customer_data.customerdata_0_1.CustomerData --context=Default --stat_port=3770 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:46:36.356
+!MESSAGE 2020-03-11 00:46:36,356 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:46:36.617
+!MESSAGE 2020-03-11 00:46:36,616 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CUSTOMER_DATA_ROUTINES: org.example.customer_data.code:routines:7.2.1 with classifier  to /CUSTOMER_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:46:36.919
+!MESSAGE 2020-03-11 00:46:36,918 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:46:36.920
+!MESSAGE 2020-03-11 00:46:36,919 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:46:36.925
+!MESSAGE 2020-03-11 00:46:36,924 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:46:36.927
+!MESSAGE 2020-03-11 00:46:36,926 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CUSTOMER_DATA_CUSTOMERDATA_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:46:37.130
+!MESSAGE 2020-03-11 00:46:37,129 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:46:37.471
+!MESSAGE 2020-03-11 00:46:37,470 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CUSTOMER_DATA_ROUTINES: org.example.customer_data.code:routines:7.2.1 with classifier  to /CUSTOMER_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2020-03-11 00:46:37.616
+!MESSAGE 2020-03-11 00:46:37,615 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_221/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Vanitha/Projects/Talend/Talend_Code/CUSTOMER_DATA/poms/jobs/process/customerdata_0.1/target/classpath.jar; customer_data.customerdata_0_1.CustomerData --context=Default --stat_port=3564 %*
+

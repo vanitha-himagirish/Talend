@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Vanitha\Projects\Talend\Talend_Code\.metadata\.plugins\org.eclipse.jdt.core
+1863827947.index
